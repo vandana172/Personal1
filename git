@@ -1,0 +1,57 @@
+VVDNTECH-P(vvdntech7838699192)
+configuration -----------------------------git config -- user.name "prakash"
+
+configuration -----------------------------git config -- user.email "prakash.ojha@vvdntech.in"
+
+show user name and email-------------------git config --list
+
+initialize file ---------------------------git inti
+
+create stage ------------------------------git add --a 
+
+git commit(snap short)---------------------git commit -m"massage for user"
+
+delete git file ---------------------------rm -rf.git 
+
+difference between two files --------------git diff
+
+stage and commit use this command -------- git commit -a -m"massage"
+
+delete a single file ----------------------git rm file name 
+
+rename file--------------------------------git mv letter.py letter_python.py
+
+delete file from git-----------------------git rm --cached shutdown.py
+
+stage file to convert unstage file---------git restore --stage prakash2
+
+undo one step -----------------------------git checkout --file name 
+
+back to previous commit--------------------git checkout -f
+
+go to the git hub and create a 
+repositories ------------------------------git remote
+
+
+run this command --------------------------git remote add origin https://github.com/prakash-wq/myfirst-project.git
+
+show push and and pull url ----------------git remote -v
+
+
+run this command for ssh key---------------ssh-keygen -t rsa -b 4096 -C "prakash.ojha@vvdntech.in"
+
+
+run this command for show id   ------------eval "$(ssh-agent -s)"
+
+run this command for added identity--------ssh-add ~/.ssh/id_rsa
+
+run this command for show ssh-------------- tail ~/.ssh/id_rsa
+
+call short from "status"---------------------git config --global alias.s status
+
+change branch ------------------------------git checkout -b branch name
+ 
+return branch-------------------------------git checkou master
+
+check how many branch i used----------------git branch 
+

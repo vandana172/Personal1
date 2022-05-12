@@ -1,0 +1,14 @@
+Video_validation_Configuration_file
+
+1>device : Gadget Serial
+
+2>wifi hardware : wlp1s0
+
+3> system ip : 192.168.1.156
+
+4> test_count_stage_table : test_count_stage
+
+5> db_ip : 172.17.192.104
+
+6> test_count_device_table : test_count_device
+

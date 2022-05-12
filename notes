@@ -1,0 +1,24 @@
+git user- vverma1
+passw-0RfA9tnx…
+m5xcgUhyGoPXuMiRoMLV
+Relay commands== sudo apt-get install usbrelay
+Relay port==sudo usbrelay
+Relay on==sudo usbrelay portname=1
+Relay off==sudo usbrelay portname=0
+creating database- psql
+
+sudo -iu postgres
+psql
+create database db_name;
+psqldatabase_name<backup_path_location
+
+
+pip install -r requirements.txt
+…
+coverting perl to exe:
+ 
+pp -u - o exe  perl
+remove all custom repositories by running---------------
+
+sudo rm /etc/apt/sources.list.d/*
+sudo apt update
